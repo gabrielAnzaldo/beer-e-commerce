@@ -6,4 +6,13 @@
 ## Notes
 
 - Having separated projects/folders for UI and SERVER was a requirement.
-- Demo video:
+
+## Screenshots
+
+### Product List Page
+
+![Product List Page](./screenshots/product-list-page.png)
+
+### Product Detail Page
+
+![Product Detail Page](./screenshots/product-detail-page.png)
