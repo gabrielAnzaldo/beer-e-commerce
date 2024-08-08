@@ -1,0 +1,167 @@
+/* some resets here */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+/* CSS VARIABLES */
+:root {
+  --primary-color: red;
+  --secondary-color: #ff9f24;
+}
+/* MOBILE FIRST APPROACH */
+/* MOBILE */
+main {
+  padding: 0 24px 24px 24px;
+}
+.loader-indicador {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.product-list a {
+  all: unset;
+}
+.products-header {
+  display: flex;
+  margin: 24px 0 24px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.products-header .logged-in-user {
+  border-radius: 50%;
+}
+.products-header .header-title-navigation {
+  font-size: 18px;
+  color: #323232;
+}
+.user-name {
+  font-size: 16px;
+  color: #646464;
+}
+.page-main-heading {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 100px;
+}
+.product-card {
+  width: 157px;
+  background-color: white;
+  border-radius: 12px 32px 12px 12px;
+  margin-bottom: 6px;
+}
+.product-card img.main-product-img {
+  width: 100%;
+  height: 122px;
+  object-fit: contain;
+}
+.product-card .product-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.product-card .product-price {
+  font-size: 16px;
+  line-height: 16px;
+  color: #323232;
+  padding: 8px 14px;
+  font-weight: 500;
+}
+.product-card .product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-detail-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.product-detail-page img {
+  object-fit: contain;
+  margin-bottom: 56px;
+}
+.product-detail-page .pdp-product-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product-detail-page .pdp-stock-info {
+  display: flex;
+  flex-direction: column;
+}
+.pdp-product-info {
+  margin-bottom: 12px;
+}
+.pdp-product-info .pdp-stock-info h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.pdp-product-info .pdp-stock-info span {
+  font-size: 14px;
+  color: #969696;
+}
+.pdp-product-info .pdp-variant-price {
+  font-size: 24px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.pdp-description {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.product-detail-page .pdp-description .pdp-description-truncate-text {
+  font-size: 14px;
+  color: #646464;
+  line-height: 24px;
+  display: inline;
+}
+
+.product-detail-page .pdp-description-ellipsis {
+  display: inline;
+  all: unset;
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.product-detail-page .pdp-description h3,
+.product-detail-page .pdp-product-variants h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #323232;
+}
+.pdp-product-variants {
+  width: 100%;
+  margin-bottom: 54px;
+}
+/* common breakpoint for devices larger than mobile */
+@media (min-width: 768px) {
+  /* Looks like this challenge is mobile oriented, since there is no mockups for desktop */
+  /* Checked on desktop breakpoing as well and is looking good! */
+}

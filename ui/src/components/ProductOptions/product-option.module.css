@@ -1,0 +1,11 @@
+.singleVariantOption {
+  border: solid #969696 1px;
+  border-radius: 15.5px;
+  margin-right: 16px;
+  font-size: 14px;
+  padding: 8px;
+}
+.selectedVariantOption {
+  border: solid var(--secondary-color) 1px;
+  color: var(--secondary-color);
+}
