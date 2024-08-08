@@ -3,6 +3,7 @@ import secondImage from "../products/corona.jpg";
 import thirdImage from "../products/miller-lite.png";
 import fourthImage from "../products/modelo-especial.png";
 import addIcon from "../icons/add-icon.svg";
+import "./ProductCard.css";
 
 const imageMap = {
   "/products/budweiser.jpg": firstImage,

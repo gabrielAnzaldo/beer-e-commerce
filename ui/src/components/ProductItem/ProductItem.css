@@ -1,3 +1,22 @@
+.product-detail-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.product-detail-page img {
+  object-fit: contain;
+  margin-bottom: 56px;
+}
+.product-detail-page .pdp-product-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product-detail-page .pdp-stock-info {
+  display: flex;
+  flex-direction: column;
+}
 .product-detail-page .pdp-footer {
   width: 100%;
   display: flex;
@@ -15,4 +34,28 @@
   color: white;
   font-size: 16px;
   text-align: center;
+}
+.product-detail-page .pdp-description .pdp-description-truncate-text {
+  font-size: 14px;
+  color: #646464;
+  line-height: 24px;
+  display: inline;
+}
+
+.product-detail-page .pdp-description-ellipsis {
+  display: inline;
+  all: unset;
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.product-detail-page .pdp-description h3,
+.product-detail-page .pdp-product-variants h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #323232;
+}
+.product-detail-page .pdp-product-variants {
+  width: 100%;
+  margin-bottom: 54px;
 }
